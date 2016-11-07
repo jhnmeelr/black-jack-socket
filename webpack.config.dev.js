@@ -34,7 +34,7 @@ export default {
                 loaders: ["style?fixUrls", "css?sourceMap", "autoprefixer", "sass?sourceMap"]
             },
             {
-                test: /\.(jpg|jpeg|png|gif|svg)?$/,
+                test: /\.(jpg|jpeg|png|gif|svg|ico)?$/,
                 loader: "url?limit=10000&mimetype=application/octet-stream"
             },
             {

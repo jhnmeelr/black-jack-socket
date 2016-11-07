@@ -42,7 +42,7 @@ export default {
                 loader: extractCSS.extract(['css', 'autoprefixer', 'sass'])
             },
             {
-                test: /\.(jpg|jpeg|png|gif|svg)$/,
+                test: /\.(jpg|jpeg|png|gif|svg|ico)$/,
                 exclude: /node_modules/,
                 loader:'file?limit=200000&name=assets/images/[name].[ext]'
             },

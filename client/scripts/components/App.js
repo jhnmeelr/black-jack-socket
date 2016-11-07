@@ -9,6 +9,7 @@ import '../../assets/images/clubs.png';
 import '../../assets/images/diamonds.png';
 import '../../assets/images/hearts.png';
 import '../../assets/images/spades.png';
+import '../../assets/images/favicon.ico';
 // fonts
 import '../../assets/fonts/TitilliumWeb-Light.ttf';
 import '../../assets/fonts/TitilliumWeb-Regular.ttf';
