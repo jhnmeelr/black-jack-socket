@@ -1,0 +1,15 @@
+#app {
+    height: 100%;
+    width: 100%;
+}
+
+.app-wrap {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    cursor: default;
+    background-image: url('/assets/images/background-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20%;
+}

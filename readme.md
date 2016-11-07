@@ -1,0 +1,1 @@
+A simple blackjack game built with React + Socket.io

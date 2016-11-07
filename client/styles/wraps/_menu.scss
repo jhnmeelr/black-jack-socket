@@ -1,0 +1,54 @@
+.menu-wrap {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    .logo-and-buttons {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: fade-in-animation 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+        .logo {
+            margin-bottom: 8vh;
+            font-size: 9vh;
+            font-weight: 800;
+            line-height: 8vh;
+            text-align: center;
+            text-transform: uppercase;
+            .number {
+                width: 40vh;
+                height: 40vh;
+                margin: 0 auto -12vh;
+                border-radius: 50%;
+                font-size: 23vh;
+                line-height: 35vh;
+                background-color: rgba(0,0,0,0.4);
+            }
+        }
+        .menu-buttons {
+            .menu-button {
+                display: block;
+                width: 30vh;
+                margin: 0 auto;
+                margin-bottom: 2vh;
+                line-height: 8vh;
+                font-size: 4vh;
+                background-color: rgba(0,0,0,0.4);
+                text-align: center;
+                text-transform: uppercase;
+                &:hover {
+                    color: #fff;
+                    text-decoration: none;
+                    background-color: rgba(0,0,0,0.6);
+                }
+                &:focus {
+                    color: #fff;
+                    text-decoration: none;
+                }
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

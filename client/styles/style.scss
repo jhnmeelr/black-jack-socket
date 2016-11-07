@@ -1,0 +1,15 @@
+@import 'variables';
+@import 'animations';
+
+// base
+@import 'base/normalize';
+@import 'base/base';
+
+// fonts
+@import 'fonts/fonts';
+
+// wraps
+@import 'wraps/app';
+@import 'wraps/menu';
+@import 'wraps/rules';
+@import 'wraps/board';

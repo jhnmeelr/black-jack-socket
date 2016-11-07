@@ -1,0 +1,54 @@
+.rules-wrap {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    .rules {
+        max-width: 320px;
+        margin: 0 auto;
+        padding: 5vh 3.5vh 0;
+        text-align: justify;
+        animation: fade-in-animation 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+        p {
+            margin: 0 0 2.5vh;
+            padding: 0;
+            font-size: 2.5vh;
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
+    .menu-buttons {
+        position: absolute;
+        top: 94%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: fade-in-animation 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+        .menu-button {
+            display: block;
+            width: 30vh;
+            margin-bottom: 2vh;
+            line-height: 8vh;
+            font-size: 4vh;
+            background-color: rgba(0,0,0,0.4);
+            text-align: center;
+            text-transform: uppercase;
+            &:hover {
+                color: #fff;
+                text-decoration: none;
+                background-color: rgba(0,0,0,0.6);
+            }
+            &:focus {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 380px ) {
+    .rules-wrap {
+        .rules {
+            max-width: 460px;
+        }
+    }
+}
